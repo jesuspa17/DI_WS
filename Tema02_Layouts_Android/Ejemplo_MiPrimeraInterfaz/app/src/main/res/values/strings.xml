@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MiPrimeraInterfaz</string>
+
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="bienvenido">Bienvenido</string>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EjercicioSpinner</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="equipo">
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+        <item>Betis</item>
+
+    </string-array>
+
+    <string-array name="real_madrid">
+        <item>Cristiano</item>
+        <item>Bale</item>
+        <item>Benzema</item>
+    </string-array>
+
+    <string-array name="barcelona">
+        <item>Messi</item>
+        <item>Neymar</item>
+        <item>Luis Suárez</item>
+    </string-array>
+
+    <string-array name="betis">
+        <item>Rubén Castro</item>
+        <item>Joaquín</item>
+        <item>Dani Ceballos</item>
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio03_ToastMejorado</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="send">Enviar</string>
+    <string name="name">¿Cómo te llamas?</string>
+    <string name="edad">¿Qué edad tienes?</string>
+</resources>
