@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toro2"
+        android:id="@+id/imageViewToro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:paddingLeft="10dp"
+        android:id="@+id/textViewNombre"
+        android:textSize="18dp"
+        android:textColor="#010101"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageViewToro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso"
+        android:paddingLeft="10dp"
+        android:id="@+id/textViewPeso"
+        android:textSize="15dp"
+        android:textColor="#010101"
+        android:layout_above="@+id/textViewGanaderia"
+        android:layout_toEndOf="@+id/imageViewToro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganaderia"
+        android:id="@+id/textViewGanaderia"
+        android:textSize="15dp"
+        android:textColor="#010101"
+        android:layout_alignBottom="@+id/imageViewToro"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vendido"
+        android:id="@+id/imageViewVendido"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/textViewGanaderia"
+        android:layout_alignParentTop="true"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganaderia: "
+        android:id="@+id/textView2"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="#010101"
+        android:layout_below="@+id/textViewPeso"
+        android:layout_toEndOf="@+id/imageViewToro" />
+
+
+</RelativeLayout>
