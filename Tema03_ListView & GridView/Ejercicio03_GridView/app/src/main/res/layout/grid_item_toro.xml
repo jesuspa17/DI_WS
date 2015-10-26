@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center"
+    android:paddingTop="10dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toro2"
+        android:id="@+id/imageViewToro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:id="@+id/textViewNombre"
+        android:textSize="10dp"
+        android:textColor="#010101"
+        android:layout_below="@+id/imageViewToro"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textViewPeso" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso"
+        android:id="@+id/textViewPeso"
+        android:textSize="10dp"
+        android:textColor="#010101"
+        android:layout_below="@+id/textViewNombre"
+        android:layout_alignEnd="@+id/imageViewToro"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganaderia"
+        android:id="@+id/textViewGanaderia"
+        android:textSize="10dp"
+        android:textColor="#010101"
+        android:layout_alignEnd="@+id/textViewPeso"
+        android:layout_below="@+id/textViewPeso"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vendido"
+        android:id="@+id/imageViewVendido"
+        android:padding="10dp"
+        android:layout_below="@+id/textViewGanaderia"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textViewGanaderia"/>
+
+
+</RelativeLayout>
