@@ -9,20 +9,8 @@ import android.widget.GridView;
 import java.util.ArrayList;
 
 /**
- Listview personalizado - 23/10/2015
+ GridViewview Apps - 23/10/2015
 
-     En este ejercicio se pretende que el alumno diseñe e implemente un ListView personalizado,
-     basándose en el ejemplo expuesto en clase y que puede encontrarse en GitHub: "ListViewCustom_ListaClase"
-     https://github.com/camposmiguel/di/tree/master/03_Listas/02_ListViewCustom_ListaClase
-
-     Queda a la elección del alumno elegir la temática del ListView (un poco de originalidad no estaría mal)
-     y los iconos que utilizará para cada elemento de la lista.
-
-     AMPLIACIÓN: implentar cebreado en el fondo de cada elemento. De manera que los elemento del ListView
-     que ocupen una posición par tengan un color de fondo y los que ocupen una posición impar otro color de fondo.
-
-     IMPORTANTE: Entregar el ejercicio en un fichero comprimido, cuyo nombre debe ser apellido1_apellido2_nombre.zip,
-     en el que se incluya el proyecto implementado.
  */
 
 public class MainActivity extends AppCompatActivity {
