@@ -32,11 +32,11 @@ public class AppAdapter extends ArrayAdapter<App> {
         // La siguiente línea de código recibe como parámetro el layout
         // que he diseñado para un elemento del ListView, en este caso
         // para un Alumno de la lista >>> R.layout.list_item_alumno
-        View layoutToro = inflater.inflate(R.layout.grid_item_app, parent, false);
+        View layoutApps = inflater.inflate(R.layout.grid_item_app, parent, false);
 
         // Se busca en el layout los elementos que vamos a utilizar.
-        ImageView toro = (ImageView) layoutToro.findViewById(R.id.imageViewApp);
-        TextView nombreTextView = (TextView) layoutToro.findViewById(R.id.textViewNombre);
+        ImageView app = (ImageView) layoutApps.findViewById(R.id.imageViewApp);
+        TextView nombreTextView = (TextView) layoutApps.findViewById(R.id.textViewNombre);
 
         //Comentario Miguel:
         // Para poder llenar los elementos del Layout de contenido, necesito obtener
@@ -44,9 +44,9 @@ public class AppAdapter extends ArrayAdapter<App> {
         App appActual = values.get(position);
 
         //Coloca el texto e imagen en los elementos del UI
-        toro.setImageResource(appActual.getImagen());
+        app.setImageResource(appActual.getImagen());
         nombreTextView.setText(appActual.getNombre());
 
-        return layoutToro;
+        return layoutTlayoutAppsoro;
     }
 }
