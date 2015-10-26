@@ -47,6 +47,6 @@ public class AppAdapter extends ArrayAdapter<App> {
         app.setImageResource(appActual.getImagen());
         nombreTextView.setText(appActual.getNombre());
 
-        return layoutTlayoutAppsoro;
+        return layoutApps;
     }
 }
