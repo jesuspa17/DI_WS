@@ -4,27 +4,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
 /**
- Listview personalizado - 23/10/2015
-
-     En este ejercicio se pretende que el alumno diseñe e implemente un ListView personalizado,
-     basándose en el ejemplo expuesto en clase y que puede encontrarse en GitHub: "ListViewCustom_ListaClase"
-     https://github.com/camposmiguel/di/tree/master/03_Listas/02_ListViewCustom_ListaClase
-
-     Queda a la elección del alumno elegir la temática del ListView (un poco de originalidad no estaría mal)
-     y los iconos que utilizará para cada elemento de la lista.
-
-     AMPLIACIÓN: implentar cebreado en el fondo de cada elemento. De manera que los elemento del ListView
-     que ocupen una posición par tengan un color de fondo y los que ocupen una posición impar otro color de fondo.
-
-     IMPORTANTE: Entregar el ejercicio en un fichero comprimido, cuyo nombre debe ser apellido1_apellido2_nombre.zip,
-     en el que se incluya el proyecto implementado.
+ ListView personalizado: Nike - 26/10/2015
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -52,20 +37,6 @@ public class MainActivity extends AppCompatActivity {
         final GimnasioAdapter adaptador = new GimnasioAdapter(this, listadoEjercicioGimnasios);
         listaToros.setAdapter(adaptador);
 
-        //Esto es para que cambie el icono de la lista. En este caso será de Vendido a No vendido.
-        //Aquí se hace una cosa muy sencilla, pero podría implementarse otra cosa mas potente como que
-        //al pulsar sobre algún elemento, nos lleve a otro Activity donde salieran los datos de cada elemento
-        //más detallados.
-        listaToros.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //obtiene la posición del elemento que hemos seleccionado de la lista.
-                EjercicioGimnasio ejercicioGimnasioSeleccionado = listadoEjercicioGimnasios.get(position);
-
-                //actualiza la lista.
-                adaptador.notifyDataSetChanged();
-            }
-        });
     }
     
     @Override

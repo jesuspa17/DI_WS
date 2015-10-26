@@ -35,7 +35,7 @@ public class GimnasioAdapter extends ArrayAdapter<EjercicioGimnasio> {
         View layoutToro = inflater.inflate(R.layout.list_item_gimnasio, parent, false);
 
         // Se busca en el layout los elementos que vamos a utilizar.
-        ImageView toro = (ImageView) layoutToro.findViewById(R.id.imageViewToro);
+        ImageView toro = (ImageView) layoutToro.findViewById(R.id.imageViewCrono);
         TextView nombreTextView = (TextView) layoutToro.findViewById(R.id.textViewNombre);
         TextView minutos = (TextView) layoutToro.findViewById(R.id.textViewMinutos);
 
