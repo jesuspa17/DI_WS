@@ -14,13 +14,13 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     //Lista a rellenar.
-    private ListView listaToros;
+    private ListView listaGym;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Se rescata del Layout.
-        listaToros = (ListView)findViewById(R.id.listView);
+        listaGym = (ListView)findViewById(R.id.listView);
 
         //Se crea una lista de pruebas, en un futuro, llenaremos la lista con elementos
         //obtenidos de una Base de Datos.
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Se da diseño a cada elemento de la lista creada anteriormente, con la clase Adapter diseñada.
         final GimnasioAdapter adaptador = new GimnasioAdapter(this, listadoEjercicioGimnasios);
-        listaToros.setAdapter(adaptador);
+        listaGym.setAdapter(adaptador);
 
     }
     
