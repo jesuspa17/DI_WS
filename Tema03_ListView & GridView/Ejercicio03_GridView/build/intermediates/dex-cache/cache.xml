@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jpallares\Desktop\Ejercicio02_GridView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\jpallares\Desktop\Ejercicio02_GridView\app\build\intermediates\pre-dexed\debug\classes-89287088811dcfa1ec964b341d8838ad55061560.jar" />
+    </item>
+    <item
+        jar="C:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\jpallares\Desktop\Ejercicio02_GridView\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-0f27f3f2e6baf84001d2afa8230a137d4b3eaf12.jar" />
+    </item>
+    <item
+        jar="C:\Users\jpallares\Desktop\Ejercicio02_GridView\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\jpallares\Desktop\Ejercicio02_GridView\app\build\intermediates\pre-dexed\debug\classes-591cfd1436cdacc7cd978261515040b67bdced9d.jar" />
+    </item>
+    <item
+        jar="C:\Users\jpallares\Desktop\Ejercicio02_GridView\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\jpallares\Desktop\Ejercicio02_GridView\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-4296aefcfa5db7b8c6b4b18a41eca4993a15f16c.jar" />
+    </item>
+
+</items>
