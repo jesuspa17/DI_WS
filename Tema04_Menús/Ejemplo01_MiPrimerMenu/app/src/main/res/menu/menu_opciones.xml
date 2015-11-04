@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+        xmlns:compat="http://schemas.android.com/apk/res-auto">
+
+        <item android:id="@+id/action_search"
+    android:icon="@android:drawable/ic_menu_search"
+    android:title="Buscar"
+    compat:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_configuration"
+        android:title="Configurar"
+        android:icon="@android:drawable/ic_menu_manage"/>
+
+    <item android:id="@+id/action_nueva_pestanya_incógnito"
+        android:title="Nueva pestaña de incógnito"/>
+
+    <item android:id="@+id/action_salir"
+        android:title="Salir"/>
+
+
+</menu>
+
