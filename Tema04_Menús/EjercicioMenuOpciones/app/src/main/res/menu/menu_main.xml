@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/compartir"
+        android:title="Compartir"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share"/>
+    <item android:id="@+id/share_on_skill" android:title="Share on SkillPages"
+        android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id="@+id/report" android:title="Report job"
+        android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id="@+id/help" android:title="Help"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+</menu>
